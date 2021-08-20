@@ -15,7 +15,7 @@ function createListElement(){
 
 	li.appendChild(document.createTextNode(input.value));
 	ul.appendChild(li);
-	// input.value = "";
+	input.value = "";
 
 	function crossOut(){
 		li.classList.toggle('done');
