@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a,li{
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	font-family: 'Bebas Neue', cursive;
+	height: 100vh;
+	background: url('https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1052&q=80');
+	background-size: cover;
+	background-position: center;
+}
+
+.container{
+	position: relative;
+	top: 30vh;
+	max-width: 300px;
+	margin: auto;
+}
+
+#enter{
+	border: none;
+	padding: 5px 15px;
+	border-radius: 3px;
+	color: #04a1bf;
+	transition: all 0.5s ease;
+}
+
+#enter:hover{
+	background-color: #04a1bf;
+	color: #ffff;
+}
+
+ul{
+	margin-top: 20px;
+}
+
+li{ 
+	padding: 10px 20px;
+	font-size: 24px;
+	color: #111;
+	text-transform: capitalize;
+	font-weight: 500;
+	border: 2px solid #04a1bf;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	transition: all 0.5s ease;
+	letter-spacing: 2px;	
+}
+
+li:hover{
+	background: #264247;
+	color: #fff;
+}
+
+/* to be styled */
+li > button{
+	/* font-weight: normal; */
+	background: none;
+	border: none;
+	float: right;
+	color: #264247;
+	font-weight: 900;
+	outline: none;
+}
+
+li:hover > button{
+	color: #fff;
+	cursor: pointer;
+}
+
+input{
+	border-radius: 3px;
+	max -width: 70%;
+	padding: 5px;
+	border: none;
+	outline: none;
+}
+
+.done{
+	color: #666;
+	text-decoration: line-through;	
+}
+
+.delete{
+	transform: scale(0);
+}
